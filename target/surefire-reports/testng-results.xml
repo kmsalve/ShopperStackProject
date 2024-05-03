@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-03T14:26:35 BST" name="Suite" finished-at="2024-05-03T14:26:45 BST" duration-ms="9379">
+  <suite started-at="2024-05-03T14:56:24 BST" name="Suite" finished-at="2024-05-03T14:56:33 BST" duration-ms="9136">
     <groups>
     </groups>
-    <test started-at="2024-05-03T14:26:35 BST" name="Test" finished-at="2024-05-03T14:26:45 BST" duration-ms="9379">
+    <test started-at="2024-05-03T14:56:24 BST" name="Test" finished-at="2024-05-03T14:56:33 BST" duration-ms="9136">
       <class name="com.shopper.qa.testcases.SearchResultPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopper.qa.testcases.SearchResultPageTest@149dd36b]" started-at="2024-05-03T14:26:35 BST" name="setUp" finished-at="2024-05-03T14:26:43 BST" duration-ms="8053" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopper.qa.testcases.SearchResultPageTest@31bcf236]" started-at="2024-05-03T14:56:24 BST" name="setUp" finished-at="2024-05-03T14:56:32 BST" duration-ms="7925" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySearchResultWorkingCorrectly()[pri:1, instance:com.shopper.qa.testcases.SearchResultPageTest@149dd36b]" started-at="2024-05-03T14:26:43 BST" name="verifySearchResultWorkingCorrectly" finished-at="2024-05-03T14:26:44 BST" duration-ms="493" status="PASS">
+        <test-method signature="verifySearchResultWorkingCorrectly()[pri:1, instance:com.shopper.qa.testcases.SearchResultPageTest@31bcf236]" started-at="2024-05-03T14:56:32 BST" name="verifySearchResultWorkingCorrectly" finished-at="2024-05-03T14:56:33 BST" duration-ms="487" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchResultWorkingCorrectly -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.shopper.qa.testcases.SearchResultPageTest@149dd36b]" started-at="2024-05-03T14:26:44 BST" name="tearDown" finished-at="2024-05-03T14:26:45 BST" duration-ms="815" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.shopper.qa.testcases.SearchResultPageTest@31bcf236]" started-at="2024-05-03T14:56:33 BST" name="tearDown" finished-at="2024-05-03T14:56:33 BST" duration-ms="706" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

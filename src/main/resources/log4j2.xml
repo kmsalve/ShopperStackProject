@@ -34,7 +34,7 @@
 		</Logger>
 		
 
-    	<Root level="Trace">
+    	<Root level="Debug">
         	<AppenderRef ref="LogFile"/>
     	</Root>
 	</Loggers> 
