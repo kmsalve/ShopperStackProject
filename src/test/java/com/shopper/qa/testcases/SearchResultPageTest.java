@@ -4,12 +4,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.AssertJUnit;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
 
 import com.shopper.qa.base.TestBase;
 import com.shopper.qa.pages.CartPage;
@@ -28,7 +22,7 @@ public class SearchResultPageTest extends TestBase
 	SearchResultPage searchResultPage;
 	CartPage cartPage;
 	
-	Logger log = LogManager.getLogger(PlaceOrderPageTest.class.getName());
+	//Logger log = LogManager.getLogger(PlaceOrderPageTest.class.getName());
 	
 	
 	public SearchResultPageTest() {
@@ -52,13 +46,13 @@ public class SearchResultPageTest extends TestBase
 	@Test(priority=1)
 	public void verifySearchResultWorkingCorrectly()
 	{
-		log.info("*********** Started :  verifySearchResultWorkingCorrectly  ***************");
+		//log.info("*********** Started :  verifySearchResultWorkingCorrectly  ***************");
 		
 		cartPage = searchResultPage.selectSingleProductFromSearchResult();
 		
 		AssertJUnit.assertEquals(cartPage.getUrlOfCartPage(), "https://www.shoppersstack.com/cart");
 		
-		log.info("*********** Finished : verifySearchResultWorkingCorrectly  ***************");
+		//log.info("*********** Finished : verifySearchResultWorkingCorrectly  ***************");
 	}
 	
 
